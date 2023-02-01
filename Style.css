@@ -3,6 +3,7 @@ body {
 }
 header {
     /*background-color: aqua;*/
+    text-align: center;
 }
 h1{
     color: red;
@@ -16,4 +17,21 @@ nav ul {
 }
 nav ul li{
     padding: 10px;
+}
+div{
+    width: 400px;
+    height: 600px;
+}
+Footer{
+    color: green;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+
+}
+footer ul{
+    padding: 50px;
+}
+footer span {
+    padding: 50px;
 }
