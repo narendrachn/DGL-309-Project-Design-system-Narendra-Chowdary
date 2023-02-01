@@ -1,3 +1,19 @@
 body {
-    
+    background-color: aquamarine;
+}
+header {
+    /*background-color: aqua;*/
+}
+h1{
+    color: red;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: right;
+}
+nav ul li{
+    padding: 10px;
 }
