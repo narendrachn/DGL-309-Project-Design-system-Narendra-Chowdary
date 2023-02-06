@@ -21,14 +21,20 @@ html {
 
     header {
         background-color: rgb(240, 220, 160);
-        text-align: center;
         height: 75px;
         padding-top: 30px;
+        display: flex;
 
+    }
+    header img {
+        padding-left: 25px;
+        border-radius: 10px;
     }
     .header-ds {
         font-size: 40px;
         font-family: sans-serif;
+        /* text-align: center; */
+        margin-left: 600px;
     }
 
     /* h1 {
