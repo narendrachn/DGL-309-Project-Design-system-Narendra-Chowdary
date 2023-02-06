@@ -6,6 +6,7 @@ html {
     body {
         background-color: rgb(193, 134, 134);
     }
+
     .header-ds {
         font-size: larger;
         font-family: sans-serif;
@@ -26,10 +27,12 @@ html {
         display: flex;
 
     }
+
     header img {
         padding-left: 25px;
         border-radius: 10px;
     }
+
     .header-ds {
         font-size: 40px;
         font-family: sans-serif;
@@ -41,7 +44,7 @@ html {
         color: ;
     } */
 
-    nav ul {
+    /* nav ul {
         list-style-type: none;
         display: flex;
         flex-direction: row;
@@ -51,6 +54,25 @@ html {
 
     nav ul li {
         padding: 10px;
+    } */
+
+    .navigation {
+        width: 200px;
+        float: left;
+    }
+
+    .navigation ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navigation li a {
+        display: block;
+        padding: 8px;
+        text-decoration: none;
+        background-color: #dddddd;
+        color: #333;
     }
 
     div {
@@ -63,6 +85,10 @@ html {
         padding: 30px;
         display: flex;
         flex-direction: row;
+        /* position: fixed; */
+        left: 0px;
+        bottom: 0px;
+        background-color: aquamarine;
 
     }
 
