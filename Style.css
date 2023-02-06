@@ -74,10 +74,15 @@ html {
         background-color: #dddddd;
         color: #333;
     }
+    .ds-image{
+        border: solid 3px black;
+        margin-top: 50px;
+        margin-left: 250px;
+    }
 
     div {
-        width: 400px;
-        height: 600px;
+        width: 550px;
+        height: 550px;
     }
 
     Footer {
@@ -88,7 +93,7 @@ html {
         /* position: fixed; */
         left: 0px;
         bottom: 0px;
-        background-color: aquamarine;
+        background-color: rgb(69, 65, 65);
 
     }
 
