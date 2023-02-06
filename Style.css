@@ -20,13 +20,14 @@ html {
     }
 
     header {
-        background-color: rgb(217, 175, 48);
+        background-color: rgb(240, 220, 160);
         text-align: center;
-        height: 50px;
+        height: 75px;
+        padding-top: 30px;
 
     }
     .header-ds {
-        font-size: larger;
+        font-size: 40px;
         font-family: sans-serif;
     }
 
