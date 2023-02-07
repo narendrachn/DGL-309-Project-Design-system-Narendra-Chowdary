@@ -60,6 +60,7 @@ html {
         width: 200px;
         height: 1000px;
         float: left;
+        font-size: 25px;
     }
 
     .navigation ul {
@@ -70,7 +71,7 @@ html {
 
     .navigation li a {
         display: block;
-        padding: 8px;
+        padding: 18px;
         text-decoration: none;
         background-color: #dddddd;
         color: #333;
@@ -79,6 +80,10 @@ html {
         border: solid 3px black;
         margin-top: 50px;
         margin-left: 250px;
+    }
+    .headings {
+        font-size: 30px;
+        margin: 0px 55px;
     }
 
     div {
