@@ -57,10 +57,11 @@ html {
     } */
 
     .navigation {
-        width: 200px;
-        height: 1000px;
+        width: 300px;
+        height: 100%;
         float: left;
         font-size: 25px;
+        
     }
 
     .navigation ul {
@@ -74,16 +75,22 @@ html {
         padding: 18px;
         text-decoration: none;
         background-color: #dddddd;
-        color: #333;
+        color: rgb(30, 29, 29);
     }
     .ds-image{
         border: solid 3px black;
         margin-top: 50px;
         margin-left: 250px;
     }
+    .fontbody{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 48px;
+    }
     .headings {
         font-size: 30px;
-        margin: 0px 55px;
+        margin: 0px 325px;
+        font-family: 'Open Sans', sans-serif; /* This CSS style is taken from https://fonts.google.com/specimen/Open+Sans and it is primary font for my website. 
+                                                    i will use regular font for body and bold 400 for headings.*/
     }
 
     div {
