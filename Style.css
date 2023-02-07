@@ -86,26 +86,33 @@ html {
         font-family: 'Open Sans', sans-serif;
         font-size: 48px;
     }
+    .typo-fam, .para-fam, .exp-fam{
+        margin: 0px 325px;
+    }
     .headings {
         font-size: 30px;
         margin: 0px 325px;
         font-family: 'Open Sans', sans-serif; /* This CSS style is taken from https://fonts.google.com/specimen/Open+Sans and it is primary font for my website. 
                                                     i will use regular font for body and bold 400 for headings.*/
     }
-
-    div {
-        width: 550px;
-        height: 550px;
+    .description{
+        margin: 0px 325px;
     }
 
-    Footer {
+    /* div {
+        width: 550px;
+        height: 550px;
+    } */
+
+    .footer1 {
         color: green;
         padding: 30px;
         display: flex;
         flex-direction: row;
         /* position: fixed; */
         left: 0px;
-        bottom: fixed;
+        bottom: 0px;
+        margin-bottom: 0px;
         background-color: rgb(69, 65, 65);
 
     }
