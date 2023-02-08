@@ -331,6 +331,11 @@ html {
         margin-left: 325px;
         border-radius: 25px 25px 25px 25px;
     }
+    .image-2, .image-3{
+        margin: 0px 0px 25px 325px;
+
+
+    }
     /* .image-1:hover{
         border: 1px solid red;
     } */
