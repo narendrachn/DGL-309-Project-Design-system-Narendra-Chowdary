@@ -529,6 +529,11 @@ html {
     .nav-btn3{
         background-color: red;
     }
+
+    .nav-button{
+        display: flex;
+        flex-direction: column;
+    }
     /* .image-1:hover{
         border: 1px solid red;
     } */
