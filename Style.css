@@ -93,7 +93,8 @@ html {
     a:active {
         color: blue;
     }
-    .search-input{
+
+    .search-input {
         width: 300px;
         height: 100%;
         background-color: #939495;
@@ -511,35 +512,72 @@ html {
         margin: 10px 325px;
     }
 
-    .nav-bar{
+    .nav-bar {
         margin: 0px 325px;
     }
 
-    .nav-btn, .nav-btn1, .nav-btn2, .nav-btn3{
+    .nav-btn, .nav-btn1, .nav-btn2, .nav-btn3 {
         margin: 25px;
         width: 100px;
         height: 50px;
         border: 1px solid black;
         border-radius: 25px;
     }
-    .nav-btn{
+
+    .nav-btn {
         background-color: #CCC97E;
     }
-    .nav-btn1{
+
+    .nav-btn1 {
         background-color: #32A8A2;
     }
-    .nav-btn2{
+
+    .nav-btn2 {
         background-color: #3471EB;
     }
-    .nav-btn3{
+
+    .nav-btn3 {
         background-color: red;
     }
 
-    .nav-button{
+    .nav-button {
         display: flex;
         flex-direction: column;
         margin: 10px 325px;
     }
+
+    /* components page styling*/
+    .comp-main{
+        margin: 10px 325px;
+    }
+
+    .comp-card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 350px;
+        
+    }
+
+    .comp-card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .comp-container, .comp-container-1 {
+        padding: 2px 16px;
+    }
+
+    .comp-card-1 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 350px;
+        
+
+    }
+
+    .comp-card-1:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
     /* .image-1:hover{
         border: 1px solid red;
     } */
