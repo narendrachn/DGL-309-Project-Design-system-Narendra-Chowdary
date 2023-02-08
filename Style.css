@@ -13,6 +13,25 @@ html {
         text-align: center;
     }
 
+    a:link {
+        color: red;
+      }
+      
+      /* visited link */
+      a:visited {
+        color: green;
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: hotpink;
+      }
+      
+      /* selected link */
+      a:active {
+        color: blue;
+      }
+
 }
 
 @media only screen and (min-width: 601px) {
@@ -55,6 +74,26 @@ html {
     nav ul li {
         padding: 10px;
     } */
+
+    a:link {
+        color: red;
+      }
+      
+      /* visited link */
+      a:visited {
+        color: green;
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: hotpink;
+      }
+      
+      /* selected link */
+      a:active {
+        color: blue;
+    }
+
 
     .navigation {
         width: 300px;
@@ -285,6 +324,16 @@ html {
     .space1 {
         margin: 0px 325px;
     }
+
+    /* Images page styling */
+    .image-1{
+        background-color: #454647;
+        margin-left: 325px;
+        border-radius: 25px 25px 25px 25px;
+    }
+    /* .image-1:hover{
+        border: 1px solid red;
+    } */
 
     /* div {
         width: 550px;
