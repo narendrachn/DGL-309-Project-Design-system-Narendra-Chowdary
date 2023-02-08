@@ -28,12 +28,105 @@
             </ul>
         </div>
     </nav>
-    <main>
-        <fieldset class="form1"> 
-            <legend> Garbage Information</legend> 
-            <label class="required">Area Name</label> 
-            <input type="text" placeholder="Please enter your location/land mark" class="av-text"> 
-          </fieldset>
+    <main class="form-body">
+        <div class="container">
+            <div class="form-header"> 
+                <h1 id="title" class="text-center">Survey Form</h1>
+                <p id="form-description" class="form-description text-center">Thank you for taking the time to hulp us improve the platform</p>
+            </div>
+    
+            <form id="survey-form">
+                <div class="form-group">
+                    <label id="name-label" for="name">Name</label>
+                    <input type="text" name="name" id="name" class="form-control" required placeholder="Enter your name">
+                </div>
+    
+                <div class="form-group">
+                    <label id="email-label" for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" required placeholder="Enter your email">
+                </div>
+    
+                <div class="form-group">
+                    <label id="number-label" for="number">Age(optional)</label>
+                    <input type="number" name="age" id="number" class="form-control" min="10" max="99" placeholder="Age">
+                </div>
+    
+                <div class="form-group">
+                    <label for="dropdown">Which option best describes your current role?</label>
+                    <select name="role" id="dropdown" class="form-control" required>
+                        <option value="" selected disabled>Select current role</option>
+                        <option value="student">Student</option>
+                        <option value="job">Full Time Job</option>
+                        <option value="learner">Full Time Learner</option>
+                        <option value="preferNo">Prefer not to say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">    
+                    <p id="form-friend">Would you recommend this site to a friend?</p>
+                    <label for="definitely">
+                        <input type="radio" name="user-recommend" id="definitely" class="input-radio" value="definitely"> Definitely
+                    </label>
+                    
+                    <label for="maybe">
+                        <input type="radio" name="user-recommend" id="maybe" class="input-radio" value="maybe"> Maybe
+                    </label>
+    
+                    <label for="not-sure">
+                        <input type="radio" name="user-recommend" id="not-sure" class="input-radio" value="not sure"> Not sure
+                    </label>
+                </div>
+    
+                <div class="form-group">
+                    <label for="most-like">What is your favorite feature of this Website?</label>
+                    <select name="most-like" id="most-like" class="form-control" required >
+                        <option value="" selected disabled>Select an option</option>
+                        <option value="challenges">Challenges</option>
+                        <option value="projects">Projects</option>
+                        <option value="community">Community</option>
+                        <option value="open-source">Open Source</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <p id="form-improve">What would you like to see improved in the city? <span class="clue">(Check all that apply)</small></p>
+                    <label for="front-end">
+                        <input type="checkbox" name="prefer" id="front-end" class="input-checkbox" value="front-end"> Garbage collection
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="prefer" id="back-end" class="input-checkbox" value="back-end"> Road System 
+                    </label>
+                    <label for="data">
+                        <input type="checkbox" name="prefer" id="data" class="input-checkbox" value="input-checkbox"> Transportation
+                    </label>
+                    <label for="challenges">
+                        <input type="checkbox" name="prefer" id="challenges" class="input-checkbox" value="challenges"> Government services
+                    </label>
+                    <label for="open-source">
+                        <input type="checkbox" name="prefer" id="open-source" class="input-checkbox" value="open-source"> Community services
+                    </label>
+                    <label for="gitter">
+                        <input type="checkbox" name="prefer" id="gitter" class="input-checkbox" value="gitter"> Public services
+                    </label>
+                    <label for="videos">
+                        <input type="checkbox" name="prefer" id="videos" class="input-checkbox" value="videos"> Traffic Services
+                    </label>
+                    <label for="meetups">
+                        <input type="checkbox" name="prefer" id="meetups" class="input-checkbox" value="meetups"> City Meetups
+                    </label>
+                </div>
+            
+                <div class="form-group">
+                    <label for="comments">Any cmments or suggestions?</label>
+                    <textarea name="comments" id="comments" class="input-textarea" placeholder="Enter your comment here"></textarea>
+                </div>
+    
+                <div class="form-group">
+                    <button type="submit" id="submit" name="submit" class="submit-button">Submit</button>
+                </div>
+            </form>
+        </div>
     </main>
     <footer class="footer1">
         <small>&copy; Copyrights to <i>Narendra</i> for DGL-309 Design System project</small>
