@@ -577,7 +577,35 @@ html {
     .comp-card-1:hover {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
+    /* accordian*/
+    .compn-accordion{
+        margin: 10px 325px;
+    }
 
+    .comp-accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+      }
+      
+      .comp-active, .comp-accordion:hover {
+        background-color: #ccc; 
+      }
+      
+      .comp-panel {
+        padding: 0 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+      }
     /* .image-1:hover{
         border: 1px solid red;
     } */

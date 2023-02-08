@@ -73,7 +73,11 @@
         </div>
         <h3>Events</h3>
         <div class="comp-card-1">
-          <img src=".." alt="" style="width: 350px; background-color:  #F1CC8F; height: 200px;" />
+          <img
+            src=".."
+            alt=""
+            style="width: 350px; background-color: #f1cc8f; height: 200px"
+          />
           <div class="comp-container-1">
             <h4><b>Events</b></h4>
             <p>Architect & Engineer</p>
@@ -81,18 +85,83 @@
         </div>
         <h3>Announcements</h3>
         <div class="comp-card-1">
-            <img src=".." alt="" style="width: 350px; background-color:  #F1CC8F; height: 200px;" />
-            <div class="comp-container-1">
-              <h4><b>Events</b></h4>
-              <p>Architect & Engineer</p>
-            </div>
+          <img
+            src=".."
+            alt=""
+            style="width: 350px; background-color: #f1cc8f; height: 200px"
+          />
+          <div class="comp-container-1">
+            <h4><b>Events</b></h4>
+            <p>Architect & Engineer</p>
           </div>
+        </div>
+        <div>
+          <h2>The progress element</h2>
+          <p>
+            This feature helps the user to get know how much the content is
+            downloaded.
+          </p>
+
+          <label for="file" style="color: black">Downloading progress:</label>
+          <progress id="comp-file" value="32" max="100">32%</progress>
+        </div>
       </div>
+      <div class="compn-accordion">
+        <h2>Accordion</h2>
+
+        <button class="comp-accordion">Section 1</button>
+        <div class="comp-panel">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <button class="comp-accordion">Section 2</button>
+        <div class="comp-panel">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <button class="comp-accordion">Section 3</button>
+        <div class="comp-panel">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+
+      <!-- Script filr is taken from URL: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_accordion for my selection-->
+      <script>
+        var acc = document.getElementsByClassName("comp-accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+      </script>
     </main>
-    <!-- <footer class="footer1">
+    <footer class="footer1">
       <small>
         &copy; Copyrights <i>Narendra</i> for DGL-309 Design System project
       </small>
-    </footer> -->
+    </footer>
   </body>
 </html>
