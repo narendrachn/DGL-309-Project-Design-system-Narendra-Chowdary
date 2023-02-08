@@ -336,6 +336,17 @@ html {
 
 
     }
+    .image-4{
+        width: 200px;
+        height: 300px;
+        border: 1.5px solid black;
+        margin: 0px 0px 25px 325px;
+        
+    }
+    .image-5{
+        background-color: #454647;
+        margin: 25px 25px;
+    }
     /* .image-1:hover{
         border: 1px solid red;
     } */
