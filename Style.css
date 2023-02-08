@@ -273,6 +273,13 @@ html {
         line-height: 25px;
         font-weight: bold;
     }
+    .list-snippt{
+        border: 2px solid black;
+        background-color: black;
+    }
+    .line-numbers{
+        border: 2px solid black;
+    }
 
 
     .space1 {
