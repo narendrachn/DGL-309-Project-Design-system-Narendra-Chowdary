@@ -15,22 +15,22 @@ html {
 
     a:link {
         color: red;
-      }
-      
-      /* visited link */
-      a:visited {
+    }
+
+    /* visited link */
+    a:visited {
         color: green;
-      }
-      
-      /* mouse over link */
-      a:hover {
+    }
+
+    /* mouse over link */
+    a:hover {
         color: hotpink;
-      }
-      
-      /* selected link */
-      a:active {
+    }
+
+    /* selected link */
+    a:active {
         color: blue;
-      }
+    }
 
 }
 
@@ -77,20 +77,20 @@ html {
 
     a:link {
         color: red;
-      }
-      
-      /* visited link */
-      a:visited {
+    }
+
+    /* visited link */
+    a:visited {
         color: green;
-      }
-      
-      /* mouse over link */
-      a:hover {
+    }
+
+    /* mouse over link */
+    a:hover {
         color: hotpink;
-      }
-      
-      /* selected link */
-      a:active {
+    }
+
+    /* selected link */
+    a:active {
         color: blue;
     }
 
@@ -163,7 +163,7 @@ html {
         margin: 0px 325px;
     }
 
-       /* Code is refered from code pen url:https://codepen.io/gustavo_victor/pen/YzjBQNW 
+    /* Code is refered from code pen url:https://codepen.io/gustavo_victor/pen/YzjBQNW 
                        and modified according to my needs in the website.*/
 
     /*reset*/
@@ -184,7 +184,7 @@ html {
     }
 
 
-     #form-friend, #form-improve, label, #submit { 
+    #form-friend, #form-improve, label, #submit {
         color: #f3f3f3;
     }
 
@@ -292,7 +292,7 @@ html {
     .container #survey-form .form-group .submit-button {
         width: 100%;
         padding: 0.75rem;
-        background-color:  rgb(20, 190, 70);
+        background-color: rgb(20, 190, 70);
         color: #f3f3f3;
         border-radius: 2px;
         cursor: pointer;
@@ -307,16 +307,18 @@ html {
 
 
     /* list Page styling*/
-    .list-1{
+    .list-1 {
         margin: 5px 325px;
         line-height: 25px;
         font-weight: bold;
     }
-    .list-snippt{
+
+    .list-snippt {
         border: 2px solid black;
         background-color: black;
     }
-    .line-numbers{
+
+    .line-numbers {
         border: 2px solid black;
     }
 
@@ -326,20 +328,23 @@ html {
     }
 
     /* Images page styling */
-    .image-1{
+    .image-1 {
         background-color: #454647;
         margin-left: 325px;
         border-radius: 25px 25px 25px 25px;
     }
-    .image-3{
+
+    .image-3 {
         margin: 0px 0px 25px 325px;
     }
-    .image-2{
+
+    .image-2 {
         background-color: #454647;
         margin: 25px;
         border-radius: 25px 25px 25px 25px;
     }
-    #image-box{
+
+    #image-box {
         width: 1000px;
         height: 200px;
         border: 1.5px solid black;
@@ -348,24 +353,181 @@ html {
         justify-content: space-around;
         padding: 20px;
     }
-    .image-4{
+
+    .image-4 {
         width: 200px;
         height: 300px;
         border: 1.5px solid black;
         margin: 0px 0px 25px 325px;
-        
+
     }
-    .image-5{
+
+    .image-5 {
         background-color: #454647;
         margin: 25px 25px;
         border-radius: 25px 25px 25px 25px;
     }
-    .image-6{
+
+    .image-6 {
         margin: 0px 0px 25px 325px;
     }
 
-    .code-image{
+    .code-image {
         margin: 0px 0px 25px 325px;
+    }
+
+    .colour-val {
+        background-color: #ffffff;
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+    }
+
+    .colour-val-0 {
+        background-color: #000000;
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+    }
+
+    .colour-val-1 {
+        background-color: #32A8A2;
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+    }
+
+    .colour-val-2 {
+        background-color: #3471EB;
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+    }
+
+    .colour-tab {
+        width: 1000px;
+        background-color: gray;
+        color: #fff;
+        margin: 0px 325px;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    .colour-val-3 {
+        background-color: #F1CC8F;
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+    }
+
+    .colour-val-4 {
+        background-color: #CCC97E;
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+    }
+
+    .colour-val-5 {
+        background-color: #EAE2B7;
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+    }
+
+    .back-clr {
+        width: 500px;
+        height: 300px;
+        border: 1px solid red;
+        background-color: #F1CC8F;
+    }
+
+    .back-clr-1 {
+        width: 500px;
+        height: 300px;
+        border: 1px solid red;
+        background-color: #CCC97E;
+    }
+
+    .btn-primary {
+        width: 105px;
+        height: 100%;
+        border: 1px solid red;
+        background-color: #32A8A2;
+        font-size: 25px;
+    }
+
+    .btn-secondary {
+        width: 105px;
+        height: 100%;
+        border: 1px solid red;
+        background-color: #EAE2B7;
+        font-size: 25px;
+    }
+
+    .colour-val-6, .colour-val-7 {
+        margin: 0px 325px;
+    }
+
+    .success {
+        background-color: #04AA6D;
+        font-size: 25px;
+        margin: 20px 325px;
+
+    }
+
+    /* Green */
+    .info {
+        background-color: #2196F3;
+        font-size: 25px;
+        margin: 0px 325px;
+    }
+
+    /* Blue */
+    .warning {
+        background-color: #ff9800;
+        font-size: 25px;
+        margin: 0px 325px;
+    }
+
+    /* Orange */
+    .danger {
+        background-color: #f44336;
+        font-size: 25px;
+        margin: 10px 325px;
+    }
+
+    /* Red */
+    .other {
+        background-color: #e7e7e7;
+        color: black;
+        font-size: 25px;
+        margin: 10px 325px;
+    }
+
+    .nav-bar{
+        margin: 0px 325px;
+    }
+
+    .nav-btn, .nav-btn1, .nav-btn2, .nav-btn3{
+        margin: 25px;
+        width: 100px;
+        height: 50px;
+        border: 1px solid black;
+        border-radius: 25px;
+    }
+    .nav-btn{
+        background-color: #CCC97E;
+    }
+    .nav-btn1{
+        background-color: #32A8A2;
+    }
+    .nav-btn2{
+        background-color: #3471EB;
+    }
+    .nav-btn3{
+        background-color: red;
     }
     /* .image-1:hover{
         border: 1px solid red;
