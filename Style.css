@@ -246,17 +246,17 @@ html {
     } */
 
     a:link {
-        color: red;
+        color: #E33636;
     }
 
     /* visited link */
     a:visited {
-        color: green;
+        color: #32A8A2;
     }
 
     /* mouse over link */
     a:hover {
-        color: hotpink;
+        color: #3471EB;
     }
 
     /* selected link */
@@ -330,6 +330,10 @@ html {
 
     .description {
         margin: 0px 325px;
+    }
+    .typo-table{
+        width: 100%;
+        height: 500px;
     }
 
     /* Forms page Styling*/
@@ -601,6 +605,12 @@ html {
 
     .colour-val-5 {
         background-color: #EAE2B7;
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+    }
+    .colour-val-r{
+        background-color: #E33636;
         width: 100px;
         height: 50px;
         margin: 2px;
