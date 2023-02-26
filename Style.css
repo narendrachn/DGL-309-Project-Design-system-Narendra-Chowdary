@@ -203,14 +203,15 @@ html {
 
     header img {
         padding-left: 25px;
-        border-radius: 10px;
+        border-radius: 20px;
     }
 
     .header-ds {
         font-size: 40px;
         font-family: sans-serif;
-        /* text-align: center; */
+        text-align: center;
         margin-left: 600px;
+        text-decoration: none;
     }
 
     /*Properties for Hamburger*/
