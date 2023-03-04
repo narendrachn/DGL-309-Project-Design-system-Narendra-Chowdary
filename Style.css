@@ -550,7 +550,11 @@ html {
     .code-image {
         margin: 0px 0px 25px 325px;
     }
+    /* Colour page */
 
+    .codepen{
+        margin: 0px 0px 25px 325px;
+    }
     .colour-val {
         background-color: #ffffff;
         width: 100px;
