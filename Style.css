@@ -578,6 +578,13 @@ html {
         margin: 2px;
     }
 
+    .colour-val-bg {
+        background-color: #c8d4ee;
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+    }
+
     .colour-tab {
         width: 1000px;
         background-color: gray;
