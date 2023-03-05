@@ -656,8 +656,8 @@ html {
     .success {
         background-color: #04AA6D;
         font-size: 25px;
-        margin: 90px 30px 30px 325px;
-
+        margin: 10px 325px;
+        width: 100px;
     }
 
     /* Green */
@@ -665,20 +665,23 @@ html {
         background-color: #2196F3;
         font-size: 25px;
         margin: 10px 325px;
+        width: 100px;
     }
 
     /* Blue */
     .warning {
         background-color: #ff9800;
         font-size: 25px;
-        margin: 30px 30px 30px 325px;
+        margin: 10px 325px;
+        width: 100px;
     }
 
     /* Orange */
     .danger {
         background-color: #f44336;
         font-size: 25px;
-        margin: 30px 30px 30px 325px;
+        margin: 10px 325px;
+        width: 100px;
     }
 
     /* Red */
@@ -687,6 +690,7 @@ html {
         color: black;
         font-size: 25px;
         margin: 10px 325px;
+        width: 100px;
     }
 
     .nav-bar {
