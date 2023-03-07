@@ -21,6 +21,35 @@ html {
 
     }
 
+    /* Hambureger menu style*/
+
+    label {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        top: 110px;
+        right: 0px;
+        width: 300px;
+        height: calc(100% - 60px);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        color: #ffffff;
+        background-color: rgb(0, 0, 0);
+        transform: translateX(200%);
+        transition: transform 0.3s ease-in;
+    }
+
+    li {
+        margin: 20px 0;
+    }
+
+    input[type="checkbox"]:checked~ul {
+        transform: translateX(100%);
+    }
+
     a:link {
         color: red;
     }
