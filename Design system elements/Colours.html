@@ -27,24 +27,20 @@
       <img src="/logo/Black and White Bold Typographic Gym Health and Fitness Animated Logo.gif" alt="Logo image" width="50px" height="50px" />
       <h1 class="header-ds"><a href="design system.html">Design System</a></h1>
     </header>
-    <nav>
-      <div class="navigation">
-        
-        <ul>
-          <li>
-            <input class="search-input" type="text" name="search" placeholder="Search for items">
-
-          </li>
-          <li><a href="Typography.html">Typography</a></li>
-          <li><a href="Colours.html">Colours</a></li>
-          <li><a href="Spacing.html">Spacing</a></li>
-          <li><a href="images.html">Images</a></li>
-          <li><a href="Navigation.html">Navigation</a></li>
-          <li><a href="form.html">Form</a></li>
-          <li><a href="list.html">List</a></li>
-          <li><a href="components.html">Components</a></li>
-        </ul>
-      </div>
+    <nav class="navigation">
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle"/>
+            <ul>
+              <li><input class="search-input" type="text" name="search" placeholder="Search for items" ></li>
+              <li><a href="Typography.html">Typography</a></li>
+              <li><a href="Colours.html">Colours</a></li>
+              <li><a href="Spacing.html">Spacing</a></li>
+              <li><a href="images.html">Images</a></li>
+              <li><a href="Navigation.html">Navigation</a></li>
+              <li><a href="form.html">Form</a></li>
+              <li><a href="list.html">List</a></li>
+              <li><a href="components.html">Components</a></li>
+            </ul>
     </nav>
     <main>
       <h1 style="margin: 0px 325px">COLOURS</h1>
@@ -161,7 +157,8 @@
         <p class="back-clr-1"></p>
       </div>
       <div class="colour-val-7">
-        <h2>Button color</h2>
+        <h2>Button color</h2>  
+                                   <!--The following javascript code is refered from w3 schools website(https://www.w3schools.com/js/tryit.asp?filename=tryjs_event_onclick3) and modified according to my requirement.-->
         <button class="btn-primary" type="button" onclick="this.innerHTML='clicked' ">Button</button>
         <button class="btn-secondary" type="button" onclick="this.innerHTML='clicked' ">Button 2</button>
         <p></p>
@@ -177,13 +174,13 @@
       
 
       <div class="buttons-colr">
-      <ul>
+      <ol class="btn-clr">
         <li class="success">Succes</li>
         <li class="label info">Info</li>
         <li class="label warning">Warning</li>
         <li class="label danger">Danger</li>
         <li class="label other">Other</li>
-      </ul>
+      </ol>
       </div>
     </main>
     <footer class="footer1">
