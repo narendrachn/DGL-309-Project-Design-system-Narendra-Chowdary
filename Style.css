@@ -288,16 +288,16 @@ html {
         margin: 0;
         padding: 0;
         
-        top: 50px;
-        left: 0px;
+        top: 110px;
+        left: 10px;
     }
 
     .navigation li a {
         display: block;
         padding: 18px;
         text-decoration: none;
-        background-color: #dddddd;
-        color: rgb(30, 29, 29);
+        background-color: #020202;
+        color: rgb(255, 255, 255);
     }
 
     .ds-image {
