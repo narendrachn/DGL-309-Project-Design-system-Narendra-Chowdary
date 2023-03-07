@@ -38,7 +38,7 @@ html {
         align-items: center; 
         color: #ffffff;
         background-color: rgb(0, 0, 0);
-        transform: translateX(200%);
+        transform: translateX(100%);
         transition: transform 0.3s ease-in;
     }
 
@@ -47,7 +47,7 @@ html {
     }
 
     input[type="checkbox"]:checked~ul {
-        transform: translateX(100%);
+        transform: translateX(0%);
     }
 
     a:link {
@@ -72,7 +72,7 @@ html {
     /* * {
         overflow: hidden;
     } */
-
+/* 
     .nav-sub {
         position: absolute;
         top: 10vh;
@@ -102,7 +102,7 @@ html {
 
     .change .bar3 {
         transform: rotate(-45deg) translate(8px, -3px);
-    }
+    } */
 
     .footer1 {
         background-color: #32A8A2;
@@ -293,7 +293,7 @@ html {
         height: 100%;
         float: left;
         font-size: 25px;
-
+        
     }
 
     .navigation ul {
@@ -685,7 +685,7 @@ html {
 
     }
 
-    .buttons-colr ul li {
+    .buttons-colr ol li {
         list-style-type: none;
         padding: 10px;
     }
