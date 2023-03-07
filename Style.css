@@ -25,10 +25,14 @@ html {
 
     label {
         display: block;
-        background-color: #000000;
-        color: white;
+        
     }
 
+     .label-ham{
+        background-color: #000000;
+        color: white;
+    } 
+    
     ul {
         position: fixed;
         top: 110px;
