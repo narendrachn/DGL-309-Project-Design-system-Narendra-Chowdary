@@ -224,6 +224,15 @@ html {
     .comp-card-1:hover {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
+
+     /* Images page styling */
+     .image-1 {
+        background-color: #454647;
+        /* margin-left: 325px; */
+        border-radius: 25px 25px 25px 25px;
+        width: "225px" ;
+        height: "225px";
+    }
 }
 
 
@@ -536,6 +545,16 @@ html {
         background-color: #454647;
         margin-left: 325px;
         border-radius: 25px 25px 25px 25px;
+        width: "550px";
+        height: "550px";
+    }
+
+    .img-title {
+        margin-left: "625px";
+    }
+
+    figure figcaption {
+        margin-left: "625px";
     }
 
     .image-3 {
