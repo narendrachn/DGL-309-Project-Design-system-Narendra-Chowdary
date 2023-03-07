@@ -7,10 +7,13 @@ html {
         background-color: rgb(255, 254, 254);
     }
 
+    .header-ds a {  
+        text-decoration: none;
+    }
+
     .header-ds {
-        font-size: larger;
+        font-size: 30px;
         font-family: sans-serif;
-        text-align: center;
     }
 
     header {
@@ -18,7 +21,14 @@ html {
         height: 75px;
         padding-top: 30px;
         display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 
+    #logo-ds{
+        position: fixed;
+        left: 20px;
+        top: 45px;
     }
 
     /* Hambureger menu style*/
@@ -28,7 +38,7 @@ html {
         
     }
 
-     .label-ham{
+    .label-ham{
         background-color: #000000;
         color: white;
     } 
@@ -261,6 +271,11 @@ html {
         font-family: sans-serif;
         text-align: center;
         margin-left: 600px;
+        text-decoration: none;
+    }
+
+    .header-ds a {
+        
         text-decoration: none;
     }
 
