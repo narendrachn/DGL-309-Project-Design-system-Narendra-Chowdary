@@ -711,11 +711,14 @@ html {
         margin: 10px 325px;
         width: 100px;
     }
-
+  /* Navigation page*/
     .nav-bar {
         margin: 0px 325px;
     }
 
+    #nav-title{
+        margin-left: 325px;
+    }
     .nav-btn, .nav-btn1, .nav-btn2, .nav-btn3 {
         margin: 25px;
         width: 100px;
