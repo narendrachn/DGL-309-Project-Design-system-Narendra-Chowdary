@@ -25,17 +25,20 @@ html {
 
     label {
         display: block;
+        background-color: #000000;
+        color: white;
     }
 
     ul {
         position: fixed;
         top: 110px;
-        right: 0px;
+        right: 10px;
         width: 300px;
         height: calc(100% - 60px);
         flex-direction: column;
         justify-content: center;
         align-items: center; 
+        list-style-type: none;
         color: #ffffff;
         background-color: rgb(0, 0, 0);
         transform: translateX(100%);
@@ -44,30 +47,31 @@ html {
 
     li {
         margin: 20px 0;
+        text-decoration: none;
     }
 
     input[type="checkbox"]:checked~ul {
         transform: translateX(0%);
     }
 
-    a:link {
-        color: red;
+    /* a:link {
+        color: #E33636;
     }
 
     /* visited link */
     a:visited {
-        color: green;
+        color: #32A8A2;
     }
 
     /* mouse over link */
     a:hover {
-        color: hotpink;
+        color: #3471EB;
     }
 
     /* selected link */
     a:active {
         color: blue;
-    }
+    } */
 
     /* * {
         overflow: hidden;
