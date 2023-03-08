@@ -33,6 +33,7 @@
         <label class="label-ham" for="toggle">&#9776;</label>
         <input style="display: none;" type="checkbox" id="toggle" />
         <ul>
+            <li><input class="search-input" type="text" name="search" placeholder="Search for items"></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="index.html">Announcements</a></li>
@@ -43,8 +44,8 @@
     </nav>
     <main>
         <section>
-            <h3>Welcome to , City of Courtenay</h3>
-            <p>What you can get From this Site is.....</p>
+            <h3 class="head-sec">Welcome to , City of Courtenay</h3>
+            <p class="head-sec">What you can get From this Site is.....</p>
 
 
         </section>
@@ -95,9 +96,28 @@
 
         <div class="events">
             <h2>Events</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste consectetur quia repellat sed natus optio
-                ipsum quis dolorum ducimus corrupti tenetur quos, est alias perferendis perspiciatis sapiente quaerat
-                doloribus culpa.</p>
+
+            <button class="comp-accordion">23-01-2023</button>
+            <div class="comp-panel">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste consectetur quia repellat sed natus optio
+                    ipsum quis dolorum ducimus corrupti tenetur quos, est alias perferendis perspiciatis sapiente quaerat
+                    doloribus culpa.
+                </p>
+            </div>
+            <button class="comp-accordion">28-01-2023</button>
+            <div class="comp-panel">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste consectetur quia repellat sed natus optio
+                    ipsum quis dolorum ducimus corrupti tenetur quos, est alias perferendis perspiciatis sapiente quaerat
+                    doloribus culpa.
+                </p>
+            </div>
+            <button class="comp-accordion">10-02-2023</button>
+            <div class="comp-panel">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste consectetur quia repellat sed natus optio
+                    ipsum quis dolorum ducimus corrupti tenetur quos, est alias perferendis perspiciatis sapiente quaerat
+                    doloribus culpa.
+                </p>
+            </div>
 
         </div>
         <div class="latest-news">
@@ -130,6 +150,22 @@
 
     </footer>
     <script src="javascript.js"></script>
+    <script>
+        var acc = document.getElementsByClassName("comp-accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+      </script>
 </body>
 
 </html>
