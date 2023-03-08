@@ -72,10 +72,6 @@ body{margin: 15px;}
         transform: translateX(0%);
     }
 
-    /* a:link {
-        color: #E33636;
-    }
-
     /* visited link */
     a:visited {
         color: #32A8A2;
@@ -91,7 +87,7 @@ body{margin: 15px;}
         color: blue;
     }
 
-    */ .footer1 {
+    .footer1 {
         background-color: #32A8A2;
     }
     /* Typography page */
@@ -1062,7 +1058,6 @@ body{margin: 15px;}
         padding: 30px;
         display: flex;
         flex-direction: row;
-        /* position: fixed; */
         left: 0px;
         bottom: 0px;
         margin-bottom: 0px;
