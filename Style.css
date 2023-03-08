@@ -375,7 +375,8 @@ body{margin: 15px;}
         background-color: #454647;
         margin: 25px 25px; 
         border-radius: 25px 25px 25px 25px;
-        
+        width: 100%;
+        height: auto;
     }
 
     .image-4 {
@@ -435,7 +436,6 @@ body{margin: 15px;}
         width: 100%;
         padding: 30px;
         display: flex;
-
     }
 
     header img {
@@ -735,8 +735,6 @@ body{margin: 15px;}
         background-color: #454647;
         margin-left: 325px;
         border-radius: 25px 25px 25px 25px;
-        width: "550px";
-        height: "550px";
     }
 
     .img-title, .img-title1, .space-title {
