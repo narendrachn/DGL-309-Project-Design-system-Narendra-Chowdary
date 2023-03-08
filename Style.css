@@ -22,13 +22,11 @@ html {
         padding-top: 30px;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        
     }
 
     #logo-ds {
-        position: fixed;
-        left: 20px;
-        top: 45px;
+       
     }
 
     /* Hambureger menu style*/
