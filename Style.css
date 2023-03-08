@@ -46,7 +46,7 @@ body{margin: 15px;}
 
     ul {
         position: fixed;
-        top: 145px;
+        top: 155px;
         right: 10px;
         width: 300px;
         height: calc(100% - 60px);
