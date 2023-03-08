@@ -151,6 +151,11 @@ body {
     padding: 2px 16px;
   }
 
+  .contact{
+    margin: 10px 10px;
+    color:#000000
+  }
+
 }
 
 @media only screen and (min-width: 601px) {
@@ -486,5 +491,10 @@ body {
 
   .comp-container {
     padding: 2px 16px;
+  }
+
+  .contact{
+    margin: 10px 325px;
+    color:#000000
   }
 }
