@@ -1,6 +1,7 @@
 html {
     font-weight: 62.5%;
 }
+body{margin: 15px;}
 
 @media only screen and (max-width: 600px) {
     body {
@@ -45,7 +46,7 @@ html {
 
     ul {
         position: fixed;
-        top: 110px;
+        top: 145px;
         right: 10px;
         width: 300px;
         height: calc(100% - 60px);
@@ -93,6 +94,176 @@ html {
     */ .footer1 {
         background-color: #32A8A2;
     }
+    /* Typography page */
+
+    .typo-table {
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    /* Colours page*/
+
+    .colour-val {
+        background-color: #ffffff;
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+    }
+
+    .colour-val-0 {
+        background-color: #000000;
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+    }
+
+    .colour-val-1 {
+        background-color: #32A8A2;
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+    }
+
+    .colour-val-2 {
+        background-color: #3471EB;
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+    }
+
+    .colour-val-bg {
+        background-color: #c8d4ee;
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+    }
+
+    .colour-tab {
+        width: 1000px;
+        background-color: gray;
+        color: #fff;
+        
+    }
+
+    .colour-val-3 {
+        background-color: #F1CC8F;
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+    }
+
+    .colour-val-4 {
+        background-color: #CCC97E;
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+    }
+
+    .colour-val-5 {
+        background-color: #EAE2B7;
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+    }
+
+    .colour-val-r {
+        background-color: #E33636;
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+    }
+
+    .back-clr {
+        width: 300px;
+        height: 150px;
+        border: 1px solid red;
+        background-color: #c8d4ee;
+    }
+
+    .back-clr-1 {
+        width: 300px;
+        height: 200px;
+        border: 1px solid red;
+        background-color: #CCC97E;
+    }
+
+    .btn-primary {
+        width: 105px;
+        height: 100%;
+        border-radius: 1px solid red;
+        background-color: #32A8A2;
+        font-size: 25px;
+    }
+
+    .btn-secondary {
+        width: 105px;
+        height: 100%;
+        border-radius: 1px solid red;
+        background-color: #EAE2B7;
+        font-size: 25px;
+    }
+
+    .buttons-colr {
+        margin: 30px 30px 30px 35px;
+
+    }
+
+    .buttons-colr ol li {
+        list-style-type: none;
+        padding: 10px;
+    }
+
+    .success {
+        background-color: #04AA6D;
+        font-size: 25px;
+        /* margin: 10px 325px; */
+        width: 100px;
+        /* padding: 10px; */
+    }
+
+    .colour-code{
+        margin: 10px 0px;
+    }
+
+    /* Green */
+    .info {
+        background-color: #2196F3;
+        font-size: 25px;
+        /* margin: 10px 325px; */
+        width: 100px;
+    }
+
+    /* Blue */
+    .warning {
+        background-color: #ff9800;
+        font-size: 25px;
+        /* margin: 10px 325px; */
+        width: 100px;
+    }
+
+    /* Orange */
+    .danger {
+        background-color: #f44336;
+        font-size: 25px;
+        /* margin: 10px 325px; */
+        width: 100px;
+    }
+
+    /* Red */
+    .other {
+        background-color: #e7e7e7;
+        color: black;
+        font-size: 25px;
+        /* margin: 10px 325px; */
+        width: 100px;
+    }
+
+
 
     /* form body*/
     .container #survey-form {
@@ -237,7 +408,7 @@ html {
         background-color: rgb(19, 19, 17);
         height: 75px;
         width: 100%;
-        padding-top: 30px;
+        padding: 30px;
         display: flex;
 
     }
@@ -278,18 +449,16 @@ html {
         color: #E33636;
     }
 
-    /* visited link */
-    a:visited {
+    a:visited {                    /* visited link */
         color: #32A8A2;
     }
 
-    /* mouse over link */
-    a:hover {
+    a:hover {                      /* mouse over link */
         color: #3471EB;
     }
 
-    /* selected link */
-    a:active {
+    
+    a:active {                     /* selected link */
         color: blue;
     }
 
@@ -315,7 +484,7 @@ html {
         margin: 0;
         padding: 0;
 
-        top: 110px;
+        top: 145px;
         left: 10px;
     }
 
@@ -545,7 +714,7 @@ html {
         height: "550px";
     }
 
-    .img-title, .img-title1 {
+    .img-title, .img-title1, .space-title {
         margin-left: 325px;
     }
 
@@ -719,6 +888,10 @@ html {
         margin: 10px 325px;
         width: 100px;
         /* padding: 10px; */
+    }
+
+    .colour-code{
+        margin: 10px 325px;
     }
 
     /* Green */
