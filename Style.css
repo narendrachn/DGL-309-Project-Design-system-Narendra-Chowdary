@@ -436,6 +436,7 @@ body{margin: 15px;}
         width: 100%;
         padding: 30px;
         display: flex;
+        justify-content: space-between;
     }
 
     header img {
@@ -454,6 +455,9 @@ body{margin: 15px;}
     .header-ds a {
 
         text-decoration: none;
+    }
+    #explink{
+        float: right;
     }
 
     /*Properties for Hamburger*/
