@@ -19,6 +19,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 93%;
+    margin: 10px 35px 10px 10px;
+  }
     
   }
 
@@ -306,12 +312,17 @@ body {
   }
 
   header {
-    background-color: rgb(86, 192, 221);
+    background-color: #CCC97E;
     height: 75px;
     padding: 30px;
     display: flex;
     align-items: center;
-    justify-content: ;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 93%;
+    margin: 10px 35px 10px 10px;
   }
 
   #image-logo {
@@ -326,7 +337,10 @@ body {
 
   .header-ds a {
     text-decoration: none;
-    margin-left: 400px;
+    
+  }
+  #explink{
+    text-decoration: none;
   }
 
   nav {
